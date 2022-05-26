@@ -67,11 +67,12 @@ hr {
 
 form {
     display: flex;
+     justify-content: center !important;
     align-items: flex-start;
     flex-direction: column;
     position: absolute;
     top: 155px;
-    left: 22.50px;
+    left:auto;
     width: 90%;
     transition: all .4s ease-in-out
 }

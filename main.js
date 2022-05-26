@@ -31,7 +31,7 @@ function getpaasword() {
     
     document.querySelector(".box h2 span").textContent = "get password";
 
-    document.querySelector("form:last-of-type").style.left = "auto";
+    document.querySelector("form:last-of-type").style.left = "5%";
 
     document.querySelector("form:first-of-type").style.left = "-100%"
 
@@ -41,7 +41,7 @@ function log() {
     
     document.querySelector(".box h2 span").textContent = "log in";
 
-    document.querySelector("form:first-of-type").style.left = "auto";
+    document.querySelector("form:first-of-type").style.left = "5%";
 
     document.querySelector("form:last-of-type").style.left = "100%"
 
